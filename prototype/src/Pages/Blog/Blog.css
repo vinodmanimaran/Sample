@@ -1,0 +1,202 @@
+
+
+.blog_card{
+    border: none !important;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 20px;
+    
+}
+
+.blog_header {
+    margin-top: 45px;
+    width: 1400px;
+    margin-left: 40px !important;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8; 
+    background-image: url('../../Assets/blog/doc.jpg'); 
+      background-position: center;
+    padding: 20px; 
+  }
+  .blog_title{
+      color: white;
+      margin-top: 160px;
+      text-align: center;
+      font-size: 120px;
+      /* font-family: 'Playfair Display'; */
+      font-family: 'Roboto';
+      width: 300px;
+      border-radius: 15px;
+      margin-left: 30%;
+
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .blog_image{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+
+  }
+  .blog_content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Merriweather';
+  }
+.blog_img_category{
+    width: 150px;
+    margin-left: 130px !important;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    padding-bottom: 0px;
+    text-shadow: 1px 1px 2px #336699;
+    text-transform:uppercase;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+font-family: 'Oswald';
+    background: linear-gradient(to bottom, #333333, #555555);
+}
+
+.blog_img_category_content{
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+
+.read-more {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+}
+
+.category-overlay {
+    z-index: 1  ;
+    position: absolute;
+    font-size: 0.6rem;
+    top: -190% !important;
+    left: 30%;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.blog-title{
+    font-size: 1rem;
+    white-space:wrap;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    font-weight: 50%;
+}
+  @media only screen and (min-width: 320px) and (max-width: 768px)   {
+    
+    
+    .blog_card{
+        width: 400px;
+        margin-left: 10%;
+    }
+    .blog-title{
+        font-size: 16px;
+        white-space:wrap;
+        margin-left: -20px;
+width: 300px;
+
+    }
+    
+    .blog_header {
+        width: 300px;
+        text-align: right;
+        margin-left: 0px !important;
+        height:30rem;
+        
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #f8f8f8; 
+        background-image: url('../../Assets/blog/doc.jpg') center/cover no-repeat; 
+        background-position: center;
+        padding: 20px; 
+    }
+    .blog_title {
+        color: white;
+        margin-top: 150px;
+        font-size: 50px;
+        text-align: left;
+        font-family: 'Montserrat';
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    .blog_img_category{
+        width: 150px;
+        margin-left: 20px;
+        font-size: 10px;
+        text-align: center;
+        border-radius: 15px;
+        padding-bottom: -10px;
+        text-transform:uppercase;
+        background: linear-gradient(to bottom, #333333, #555555);
+        color: white;
+
+    }
+    .blog_img_category_content{
+        font-weight: bold;
+    }
+    .blog_image{
+        width: 90%;
+        margin: 10px;
+        border-radius: 15px  15px 0 0;
+        max-width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: none;
+margin-left: -10px;
+      }
+
+
+      .category-overlay {
+        z-index: 1  ;
+        position: absolute;
+        top: 0;
+        left: 40%;
+        padding: 10px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .blog_content p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        width: 350px;
+        margin-left: -23px;
+        white-space: wrap;
+        color: #333;
+        margin-bottom: 15px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        font-family: 'Merriweather';
+      }
+    .blog_img_category_content {
+    }
+    
+    .read-more {
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: -20px;
+    }
+}
+
+
+
